@@ -1,0 +1,127 @@
+/* styles.css */
+
+/* Add some styles for the rectangular layout */
+.table th{
+    border: 2px solid #fdfbfb; /* Add border for the rectangles */
+    padding: 5px; /* Add some padding for better spacing */
+    background-color: #657FC5;
+    align-items: center;
+
+}
+.table td{
+
+    background-color: #E3EBF9;
+    border: 2px solid #fdfbfb; /* Add border for the rectangles */
+    align-items: center;
+}
+
+/* Add margin between the rectangles */
+.table th:not(:last-child), .table td:not(:last-child) {
+    margin-right: 3px;
+}
+
+.table-container{
+    margin-top: 60px;
+}
+
+.addbtn{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* .college-interface {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .topdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+  
+  .logoimg {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .course-selection-container {
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 430px;
+    /* border: 1px solid black; */
+}
+
+  
+  .select-course-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    color: black;
+     margin-left: 47%; 
+     text-decoration: underline;
+ }
+  
+  .course-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .continue-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  
+  .continue-button:hover {
+    background-color: #0056b3;
+  }
+
+  .co-po-pso-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+    float:left;
+    margin-left: 450px;
+  }
+  
+  .co-po-pso-button:hover {
+    background-color: #0056b3;  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  
+.createAndUpdateUserDiv{
+    margin-left: 400px;
+    margin-right: 400px;
+    width: 50%;
+}
+
+/* .heading-cos{
+      margin: 0 auto;
+      display: block;
+      justify-content: center;
+} */
